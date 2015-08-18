@@ -1,3 +1,55 @@
 body {
-  background-image: url("images/gothic.jpg");
+  background-image: url("images/ohbejoyful.jpg");
+  background-orientation: 90deg;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: lighter;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding-bottom: none;
+
+}
+
+li {
+  display: inline-flex;
+  padding: 20px;
+}
+
+/*ul {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}*/
+
+a:link {
+  text-decoration: none;
+  color: #595C59;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #595C59;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #088752;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+#tagline {
+  font-size: 1.5em;
+  font-weight: lighter;
 }
