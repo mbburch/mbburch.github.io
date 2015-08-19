@@ -13,7 +13,7 @@ h1 {
   font-weight: lighter;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
-  padding-bottom: none;
+  padding: 20px;
 
 }
 
@@ -22,10 +22,12 @@ li {
   padding: 20px;
 }
 
-/*ul {
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
-}*/
+ul {
+  background-color: rgba(180, 180, 180, 0.75);
+  background-size: auto;
+  padding: 20px;
+
+}
 
 a:link {
   text-decoration: none;
@@ -48,7 +50,9 @@ a:hover {
   font-weight: lighter;
 }
 
-#tagline {
+/*#tagline {
   font-size: 1.5em;
   font-weight: lighter;
-}
+  display: center;
+  padding: 10 px;
+}*/
