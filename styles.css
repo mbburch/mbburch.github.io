@@ -1,11 +1,11 @@
 body {
-  background-image: url("images/ohbejoyful.jpg");
+  background-image: url("images/snowclouds.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 h1 {
@@ -13,8 +13,10 @@ h1 {
   font-weight: lighter;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
+  width: 600px;
   padding: 20px;
-
+  margin: 10px auto 10px auto;
+  text-shadow: 2px 2px 5px gray;
 }
 
 li {
@@ -23,10 +25,20 @@ li {
 }
 
 ul {
-  background-color: rgba(180, 180, 180, 0.75);
-  background-size: auto;
-  padding: 20px;
+  padding: 10px;
+}
 
+#text-link {
+  font-size: 1em;
+  color: black;
+  font-weight: lighter;
+}
+
+#text-link:hover {
+  text-decoration: none;
+  color: #2A6375;
+  font-size: 1em;
+  font-weight: lighter;
 }
 
 a:link {
@@ -50,9 +62,12 @@ a:hover {
   font-weight: lighter;
 }
 
-/*#tagline {
+#tagline {
   font-size: 1.5em;
+  color: black;
   font-weight: lighter;
-  display: center;
-  padding: 10 px;
-}*/
+  /*background-color: rgba(180, 180, 180, 0.75);*/
+  width: 800px;
+  padding: 20px;
+  margin: 20px auto 20px auto;
+}
