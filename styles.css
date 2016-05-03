@@ -1,16 +1,18 @@
 body {
-  background-image: url("images/snowclouds.jpg");
+  background-image: url("images/trees.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
+  color: #3E2723;
+  font-family: 'News Cycle', sans-serif;
 }
 
 h1 {
   font-size: 100px;
   font-weight: lighter;
+  font-family: 'Amatic SC', sans-serif;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
   width: 600px;
@@ -28,45 +30,46 @@ ul {
   padding: 10px;
 }
 
-#text-link {
-  font-size: 1em;
-  color: black;
+.link {
+  /*font-size: 1em;*/
+  color: #196F3D
+
+;
   font-weight: lighter;
 }
 
-#text-link:hover {
+.link:hover {
   text-decoration: none;
-  color: #2A6375;
-  font-size: 1em;
+  color: #530B8F;
+  /*font-size: 1em;*/
   font-weight: lighter;
 }
 
 a:link {
   text-decoration: none;
-  color: #595C59;
-  font-size: 1.5em;
+  color: #196F3D
+
+;
+  /*font-size: 1.5em;*/
   font-weight: lighter;
 }
 
-a:visited {
-  text-decoration: none;
-  color: #595C59;
-  font-size: 1.5em;
-  font-weight: lighter;
-}
 
-a:hover {
-  text-decoration: none;
-  color: #088752;
+.blurb-text {
   font-size: 1.5em;
-  font-weight: lighter;
-}
-
-#tagline {
-  font-size: 1.5em;
-  color: black;
+  /*color: #3E2723;*/
   font-weight: lighter;
   /*background-color: rgba(180, 180, 180, 0.75);*/
+  width: 800px;
+  padding: 20px;
+  margin: 20px auto 20px auto;
+}
+
+.tagline-text {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 1.5em;
+  /*color: #3E2723;*/
+  font-weight: lighter;
   width: 800px;
   padding: 20px;
   margin: 20px auto 20px auto;
